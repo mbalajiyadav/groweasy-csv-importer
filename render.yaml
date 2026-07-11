@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: groweasy-backend
+    env: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: GEMINI_API_KEY
+        sync: false
+        placeholder: "Your Google Gemini API Key"
+      - key: FRONTEND_ORIGIN
+        sync: false
+        placeholder: "Production frontend URL (e.g., https://groweasy.vercel.app)"
+      - key: API_CONCURRENCY_LIMIT
+        value: "3"
