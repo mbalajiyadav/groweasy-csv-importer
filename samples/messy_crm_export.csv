@@ -1,0 +1,4 @@
+Lead Name,E-mail,Tel. Number,Remarks/Note,City/Location,Enquiry Date,Status Code,Source
+"Sarah Connor","sarah@sky.net","+1 800-555-0100","Protect John Connor at all costs.","Los Angeles","11/07/2026","good_lead_follow_up","leads_on_demand"
+"Tony Stark","tony@stark.com","+1 212-555-3000","Need more silicon wafers. Alternate phone +1 212-555-3333","Malibu","12-07-2026","SALE_DONE","meridian_tower"
+"Bruce Wayne","bruce@waynecorp.com","","Pre-orders for Eden Park plots.","Gotham","13/07/2026 09:15:00","DID_NOT_CONNECT","eden_park"

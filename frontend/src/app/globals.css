@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-serif), Georgia, serif;
+  --font-mono: var(--font-mono), monospace;
+
+  --color-brand-primary: var(--color-brand-primary);
+  --color-brand-secondary: var(--color-brand-secondary);
+  --color-brand-border: var(--color-brand-border);
+  --color-brand-text: var(--color-brand-text);
+  --color-brand-bg: var(--color-brand-bg);
+}
+
+:root {
+  --color-brand-primary: #4CBB17;
+  --color-brand-secondary: #48872B;
+  --color-brand-border: #39542C;
+  --color-brand-text: #293325;
+  --color-brand-bg: #FAFAF8;
+}
+
+.dark {
+  --color-brand-primary: #4CBB17;
+  --color-brand-secondary: #48872B;
+  --color-brand-border: #48872B;
+  --color-brand-text: #FAFAF8;
+  --color-brand-bg: #293325;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+}
+
+/* Custom scrollbars for ledger feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-brand-bg);
+  border-left: 1px solid rgba(72, 135, 43, 0.15);
+  border-top: 1px solid rgba(72, 135, 43, 0.15);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(72, 135, 43, 0.25);
+  border: 2px solid var(--color-brand-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(72, 135, 43, 0.45);
+}
+
+::selection {
+  background-color: rgba(76, 187, 23, 0.25);
+  color: var(--color-brand-text);
+}

@@ -1,0 +1,4 @@
+Lead Name,E-mail,Tel. Number,Remarks/Note
+"Ghost Lead 1","","","No email or phone, should be skipped"
+"Ghost Lead 2","   ","","Spaces only, should be skipped"
+"Jane Doe","jane@doe.com","+1 512 555 1212","Should be imported"
